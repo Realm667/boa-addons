@@ -1,0 +1,9 @@
+title = M2HB
+
+credits = N00b
+
+creditsFull = Sprites edited from FinalDoomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nEvent handler edited from forum.zdoom.org/viewtopic.php?f=122&t=64334 by Jekyll Grim Payne\nThere was no time for brightmaps, please draw them if you want to incorporate this into your mod ;-)
+
+description = Replaces the Fliegerfaust mounted on the truck from C2M4 with a Browning .50 caliber M2HB heavy machine gun, loaded with high-explosive cartridges. It can easily destroy both enemy infantry and vehicles.
+
+previewImages = 1

@@ -1,0 +1,9 @@
+title = Vampire
+
+credits = N00b & DoomJedi
+
+creditsFull = Code by N00b\nMugshot graphics done by N00b based on DoomJedi's work
+
+description = You are a vampire who quenches his thirst by killing Nazis and their accomplices. You've become so addicted to blood that you cannot survive for even one minute without taking another life.
+
+previewImages = 1

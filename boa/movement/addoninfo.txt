@@ -1,0 +1,7 @@
+title = Movement
+
+credits = N00b
+
+description = Ammo and large weapons now have weight and slow you down, you can drop unnecessary ones using the standard GZDoom weapon drop command. You can also roll by double-tapping a side movement key while crouching.
+
+previewImages = 1

@@ -1,0 +1,7 @@
+title = Score
+
+credits = AFADoomer
+
+description = Upon killing an enemy, the player gains a few score points, just like in Wolfenstein 3-D. Tougher and rarer enemies grant more points, and for every 40000 points, you receive some bonus goodies.
+
+previewImages = 1

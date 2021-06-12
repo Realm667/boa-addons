@@ -1,0 +1,7 @@
+title = Disable Hints
+
+credits = N00b
+
+description = Removes all exclamation marks and secret hint sheets from the game, and disables the compass. This is for people who do not like in-game hints and think that Blade of Agony has a bit too much of them.
+
+previewImages = 1

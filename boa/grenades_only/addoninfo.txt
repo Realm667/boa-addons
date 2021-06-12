@@ -1,0 +1,9 @@
+title = Grenades Only
+
+credits = N00b
+
+description = Removes all weapons except grenades. The good news is that you can throw them further... and that you have an infinite supply of them. Don't get too careless in close quarters!
+
+requirements = Start new campaign.
+
+previewImages = 1

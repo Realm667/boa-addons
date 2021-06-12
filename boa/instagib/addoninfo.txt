@@ -1,0 +1,9 @@
+title = Instagib
+
+credits = N00b
+
+creditsFull = Not much to be proud of, but done by N00b.
+
+description = All damage from enemies to player and vice versa is multiplied by 1000. Terrain-based damage (e. g. from falling/drowning), as well as damage from critters, are excluded for the game to become playable.
+
+previewImages = 1

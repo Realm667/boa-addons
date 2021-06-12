@@ -1,0 +1,9 @@
+title = More Weapons
+
+credits = N00b, DoomJedi, wildweasel
+
+creditsFull = Code changes done by N00b.\n\nSounds\nFG42: GTA IV and edited by wildweasel; one of Men of War games by Best Way.\nStG44: Call of Duty 2 or Medal of Honor: Pacific Assault, freesoundeffect.net/sound/gunmachinegun-s08wa-903-sound-effect\n\nSprites:\nAlmost everything was edited by N00b.\nFG42: base taken from ww-nazis by wildweasel, scope done by DoomJedi.\nStG44: combined from works of\n  DrCosmobyte/GAA1992 forum.zdoom.org/viewtopic.php?f=4&t=15080&p=954725#p954725\n  and YukiHerz forum.zdoom.org/viewtopic.php?f=60&t=53753&p=949694#p949694\n  pickup sprite taken from wolfinfinity-v1.10b (PillowBlaster?)\n  The ammo type needs some distinctive sprites.\nKampfpistole: DrCosmobyte/GAA1992
+
+description = Adds three new weapons to the game. Kampfpistole is used by (and dropped from) some of the officers, StG 44 is a weapon of elite Waffen SS units, and FG 42 is sometimes used by paratroopers.
+
+previewImages = 1

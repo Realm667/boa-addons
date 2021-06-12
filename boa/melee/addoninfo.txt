@@ -1,0 +1,7 @@
+title = Melee
+
+credits = N00b
+
+description = Removes all guns, and replaces them with melee weapons. Your melee weapons deal more damage than usual, and you can now throw your knives (you can carry multiple ones). After a silent kill, you can also drag the dead body away to hide it from patrols.
+
+previewImages = 1
