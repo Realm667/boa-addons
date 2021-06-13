@@ -1,5 +1,0 @@
-.git*
-build.bat
-build.sh
-dist
-tools
