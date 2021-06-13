@@ -1,0 +1,9 @@
+title = 8bit Music
+
+credits = Tormentor667
+
+creditsFull = Tormentor667 gathering music from various older Apogee releases
+
+description = Replaces all ingame music with classic 8bit tunes from old Apogee releases like Wolfenstein 3D, Blake Stone, Bio Menace and more.
+
+previewImages = 1
