@@ -13,7 +13,8 @@ class VampireBoAPlayer: BoAPlayer
 	{
 		if (health > 0 && !VampireHandler.VampireSpecialSequenceLevel())
 		{
-			++tics_since_last_kill;
+			if (!CountInv("RegenPowerup")) { ++tics_since_last_kill; }
+			else { if (tics_since_last_kill >= 3) { tics_since_last_kill -= 3; } }
 			if (tics_since_last_kill > 1050) //30 seconds
 			{
 				if (tics_since_last_kill % 64 == 0) { //2x slower than drowning
