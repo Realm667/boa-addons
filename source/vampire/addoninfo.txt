@@ -1,9 +1,19 @@
 title = Vampire
 
+title_ru = Вампир
+
 credits = N00b & DoomJedi
 
 creditsFull = Code by N00b\nMugshot graphics done by N00b based on DoomJedi's work
 
+creditsFull_ru = Код: N00b\nГрафика лица: N00b, основана на работе DoomJedi.
+
 description = You are a vampire who quenches his thirst by killing Nazis and their accomplices. You've become so addicted to blood that you cannot survive for even one minute without taking another life.
+
+description_ru = Вы вампир, удовлетворяющий жажду убийством нацистов и их приспешников. Вы настолько привыкли к крови, что и минуты не проживёте без того, чтобы забрать чью-нибудь жизнь.
+
+requirements = None
+
+requirements_ru = Отсутствуют
 
 previewImages = 1

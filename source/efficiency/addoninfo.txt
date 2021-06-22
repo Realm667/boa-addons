@@ -1,9 +1,19 @@
 title = Efficiency
 
+title_ru = Экономичность
+
 credits = N00b & "zrrion the insect"
 
 creditsFull = Modified from Thrifty Ammo/Health by zrrion the insect\nforum.zdoom.org/viewtopic.php?f=43&t=71406
 
+creditsFull_ru = Основано на Thrifty Ammo/Health автора zrrion the insect\nforum.zdoom.org/viewtopic.php?f=43&t=71406
+
 description = Prevents ammo and health items from being wasted by preventing you from picking them up automatically if they do not fit fully in your inventory. If you still want to do it, press use on the item, and it will be picked up.
+
+description_ru = Не даёт исчезнуть излишкам патронов и здоровья из предметов, помещающихся в инвентарь не полностью. Чтобы всё равно поднять предмет, нажмите клавишу "использовать".
+
+requirements = None
+
+requirements_ru = Отсутствуют
 
 previewImages = 1

@@ -1,9 +1,19 @@
 title = Behaviour
 
+title_ru = Поведение
+
 credits = N00b & DoomJedi
 
 creditsFull = N00b: code, sleeping AK guard recolor\nDoomJedi: all other graphics
 
+creditsFull_ru = N00b: код, спрайты спящего солдата Афр. корпуса\nDoomJedi: вся остальная графика
+
 description = Adds some advanced behaviour patterns to regular enemies, such as leaping for melee mutants, picking up weapons, sleeping, and throwing grenades at close range as an extreme measure after being wounded.
+
+description_ru = Добавляет обычным противникам более сложные образцы поведения, например атаку в прыжке для мутантов ближнего боя, подбирание оружия, сон, а также, в качестве крайней меры, броски гранат на короткое расстояние после ранения.
+
+requirements = None
+
+requirements_ru = Отсутствуют
 
 previewImages = 1

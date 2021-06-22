@@ -1,9 +1,19 @@
 title = 8bit Music
 
+title_ru = Восьмибитная музыка
+
 credits = Tormentor667
 
 creditsFull = Tormentor667 gathering music from various older Apogee releases
 
+creditsFull_ru = Tormentor667 (сбор музыки из старых игр Apogee)
+
 description = Replaces all ingame music with classic 8bit tunes from old Apogee releases like Wolfenstein 3D, Blake Stone, Bio Menace and more.
+
+description_ru = Заменяет всю игровую музыку на восьмибитные мелодии из старых игр Apogee, таких как Wolfenstein 3D, Blake Stone, Bio Menace, и некоторых других.
+
+requirements = None
+
+requirements_ru = Отсутствуют
 
 previewImages = 1
