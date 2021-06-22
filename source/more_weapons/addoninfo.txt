@@ -16,4 +16,4 @@ requirements = None
 
 requirements_ru = Отсутствуют
 
-previewImages = 1
+previewImages = 3
