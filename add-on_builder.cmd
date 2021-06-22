@@ -1,7 +1,6 @@
 @echo off
 
-del /f /q *.pk3 *.boa 2>nul
-del /f /s release 2>nul
+rmdir /s /q release 2>nul
 
 pushd source
 for /F %%I in ('dir /ad /b') do (
