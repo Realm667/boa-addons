@@ -1,4 +1,5 @@
 title = Behaviour
+title_de = Verhalten
 title_ru = Поведение
 
 credits = N00b & DoomJedi
