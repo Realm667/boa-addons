@@ -1,15 +1,12 @@
 title = Movement
-
 title_ru = Передвижение
 
 credits = N00b
 
 description = Ammo and large weapons now have weight and slow you down, you can drop unnecessary ones using the standard GZDoom weapon drop command. You can also roll by double-tapping a side movement key while crouching.
-
 description_ru = Боезапас и крупное оружие теперь обладают весом и замедляют Вас; ненужное оружие можно выбросить с помощью соответствующей стандартной команды из GZDoom. Также можно делать перекаты, дважды нажимая на клавишу движения вбок во время приседания.
 
 requirements = None
-
 requirements_ru = Отсутствуют
 
 previewImages = 1

@@ -1,15 +1,12 @@
 title = Score
-
 title_ru = Счёт
 
 credits = AFADoomer
 
 description = Upon killing an enemy, the player gains a few score points, just like in Wolfenstein 3-D. Tougher and rarer enemies grant more points, and for every 40000 points, you receive some bonus goodies.
-
 description_ru = После убийства противника игрок получает очки — прямо как в Wolfenstein 3-D. Сильные и редкие противники дают больше очков; после набора каждых 40000 очков Вы получаете немного дополнительных припасов.
 
 requirements = None
-
 requirements_ru = Отсутствуют
 
 previewImages = 1
