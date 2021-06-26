@@ -1,12 +1,15 @@
 title = LowRes Models
+title_de = Models mit niedriger Auflösung
 title_ru = Низкое разрешение моделей
 
 credits = Tormentor667
 
 description = If you are a big fan of pixelated art and want to have all those high-resolution models adjusted to this blocky look, you might want to load these model textures with reduced texture resolution.
+description_de = Wenn du ein großer Fan von pixeliger Kunst bist und all die hochauflösenden Modelle an diesen blockigen Look angepasst haben möchtest, solltest Du diese Modelltexturen mit reduzierter Texturauflösung laden.
 description_ru = Если Вам больше нравится пиксельная графика, то Вы можете включить эти текстуры для игровых моделей с уменьшенным разрешением.
 
 requirements = None
+requirements_de = Keine
 requirements_ru = Отсутствуют
 
 previewImages = 1

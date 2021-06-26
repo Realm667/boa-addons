@@ -6,9 +6,11 @@ creditsFull = Sprites edited from Final Doomer Plutonia HMG (Captain J, Doom Alp
 creditsFull_ru = Спрайты основаны на крупнокалиберном пулемёте из сета Plutonia модификации Final Doomer (Captain J, Doom Alpha, Knight Icy, Skelegant)\nОбработчик событий основан на https://forum.zdoom.org/viewtopic.php?f=122&t=64334 автора Jekyll Grim Payne\nНа карты освещения не оставалось времени, пожалуйста, нарисуйте их сами, если хотите включить эту модификацию в Вашу работу ;-)
 
 description = Replaces the Fliegerfaust mounted on the truck from C2M4 with a Browning .50 caliber M2HB heavy machine gun, loaded with high-explosive cartridges. It can easily destroy both enemy infantry and vehicles.
+description_de = Ersetzt die auf dem LKW montierte Fliegerfaust aus C2M4 durch ein schweres Maschinengewehr vom Typ Browning .50 Kaliber M2HB, geladen mit hochexplosiven Patronen. Es kann sowohl feindliche Infanterie als auch Fahrzeuge leicht zerstören.
 description_ru = Заменяет Fliegerfaust, установленный на грузовике на C2M4, на пулемёт Браунинга M2, заряженный разрывными патронами. Он легко справляется как с пехотой противника, так и с техникой.
 
 requirements = None
+requirements_de = Keine
 requirements_ru = Отсутствуют
 
 previewImages = 1

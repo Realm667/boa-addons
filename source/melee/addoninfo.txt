@@ -1,12 +1,15 @@
 title = Melee
+title_de = Nahkampf
 title_ru = Ближний бой
 
 credits = N00b
 
 description = Removes all guns, and replaces them with melee weapons. Your melee weapons deal more damage than usual, and you can now throw your knives (you can carry multiple ones). After a silent kill, you can also drag the dead body away to hide it from patrols.
+description_de = Entfernt alle Pistolen und ersetzt sie durch Nahkampfwaffen. Diese verursachen mehr Schaden als üblich, und Du kannst jetzt Deine Messer werfen (mehrere sind nun tragbar). Nach einer lautlosen Tötung kannst Du den toten Körper auch wegschleppen, um ihn vor Patrouillen zu verstecken.
 description_ru = Убирает из игры всё огнестрельное оружие и заменяет его на холодное с увеличенным уроном. Также теперь можно подбирать несколько ножей и метать их, а после скрытного убийства оттаскивать тело, чтобы спрятать его от патрулей.
 
 requirements = None
+requirements_de = Keine
 requirements_ru = Отсутствуют
 
 previewImages = 1

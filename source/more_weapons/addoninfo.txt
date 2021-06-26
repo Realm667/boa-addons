@@ -1,4 +1,5 @@
 title = More Weapons
+title_de = Mehr Waffen
 title_ru = Больше оружия
 
 credits = N00b, DoomJedi, wildweasel
@@ -7,9 +8,11 @@ creditsFull = Code done by N00b.\n\nSounds\nFG42: GTA IV and edited by wildwease
 creditsFull_ru = Код: N00b.\n\nЗвуки\nFG42: GTA IV, обработано wildweasel; одна из игр серии "В тылу врага" (Best Way, 1С).\nStG44: Call of Duty 2 или Medal of Honor: Pacific Assault, https://freesoundeffect.net/sound/gunmachinegun-s08wa-903-sound-effect\n\nСпрайты:\nПочти всё редактировал N00b.\nFG42: основа взята из ww-nazis автора wildweasel, прицел нарисован DoomJedi. Парашютистам нужен набор спрайтов с FG42.\nStG44: собрана из работ\n  DrCosmobyte/GAA1992 https://forum.zdoom.org/viewtopic.php?f=4&t=15080&p=954725#p954725\n  и YukiHerz https://forum.zdoom.org/viewtopic.php?f=60&t=53753&p=949694#p949694\n  спрайт предмета взят из wolfinfinity-v1.10b (PillowBlaster?)\n  Для патронов нужны отдельные спрайты.\nKampfpistole: DrCosmobyte/GAA1992
 
 description = Adds three new weapons to the game. Kampfpistole is used by (and dropped from) some of the officers, StG 44 is a weapon of elite Waffen SS units, and FG 42 is sometimes used by paratroopers.
+description_de = Fügt dem Spiel drei neue Waffen hinzu. Die Kampfpistole wird von einigen Offizieren benutzt (und verloren), das StG 44 ist eine Waffe von Eliteeinheiten der Waffen-SS und das FG 42 wird manchmal von Fallschirmjägern benutzt.
 description_ru = Добавляет в игру три новых вида оружия. Kampfpistole можно позаимствовать у некоторых офицеров, StG 44 используют элитные части Waffen SS, а FG 42 иногда выдаются парашютистам.
 
 requirements = None
+requirements_de = Keine
 requirements_ru = Отсутствуют
 
 previewImages = 3

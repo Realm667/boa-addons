@@ -1,12 +1,15 @@
 title = Instagib
+title_de = Instagib
 title_ru = Instagib
 
 credits = N00b
 
 description = All damage from enemies to player and vice versa is multiplied by 1000. Terrain-based damage (e. g. from falling/drowning), as well as damage from critters, are excluded for the game to become playable.
+description_de = Alle Schäden von Gegnern am Spieler und umgekehrt werden mit 1000 multipliziert. Terrainbasierter Schaden (z. B. durch Fallen/Ertrinken) sowie Schaden durch Ungeziefer sind der Spielbarkeit halber davon ausgeschlossen.
 description_ru = Урон, наносимый противниками игроку и наоборот, умножается на 1000. Чтобы в это можно было играть, урон от окружения (например, при утоплении или падении), а также наносимый мелкой живностью, не модифицируются.
 
 requirements = None
+requirements_de = Keine
 requirements_ru = Отсутствуют
 
 previewImages = 1

@@ -1,12 +1,15 @@
 title = Grenades Only
+title_de = Nur Granaten
 title_ru = Только гранаты
 
 credits = N00b
 
 description = Removes all weapons except grenades. The good news is that you can throw them further... and that you have an infinite supply of them. Don't get too careless in close quarters!
+description_de = Entfernt alle Waffen außer Granaten. Die gute Nachricht ist: Du kannst sie weiter werfen... und dass Du einen unendlichen Vorrat davon hast. Vorsicht im Nahkampf!
 description_ru = Убирает из игры все виды оружия, кроме гранат. Хорошие новости: теперь их можно метать дальше... и у Вас их бесконечно много. Не теряйте бдительность в ближнем бою!
 
 requirements = Start new campaign.
+requirements_de = Keine
 requirements_ru = Начните новую игру.
 
 previewImages = 1
