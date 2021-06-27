@@ -1,15 +1,18 @@
 title = Disable Hints
 title_de = Hinweise deaktivieren
 title_ru = Отключить подсказки
+title_cs = Potlačení nápověd
 
 credits = N00b
 
 description = Removes all exclamation marks and secret hint sheets from the game, and disables the compass. This is for players who do not like in-game hints and think that Blade of Agony has a bit too much of them.
 description_de = Entfernt alle Ausrufezeichen und geheimen Hinweisblätter aus dem Spiel und deaktiviert den Kompass. Dies ist für Spieler, die keine Ingame-Hinweise wollen und denken, dass Blade of Agony ein bisschen zu viel davon hat.
 description_ru = Убирает из игры все подсказки в виде восклицательных знаков и записок о тайниках, а также отключает компас. Для игроков, которые не любят подсказки и считают, что в Blade of Agony их слишком много.
+description_cs = Odstraní veškeré vykřičníky a papíry s nápovědami ze hry, a také zneaktivuje kompas. Určeno pro hráče, kteří nemají rádi nápovědy ve hře a myslí si, že Blade of Agony jich má až přehrše.
 
 requirements = None
 requirements_de = Keine
 requirements_ru = Отсутствуют
+requirements_cs = Žádné
 
 previewImages = 1
