@@ -1,19 +1,23 @@
 title = Behaviour
 title_de = Verhalten
 title_ru = Поведение
+title_cs = Chování
 
 credits = N00b & DoomJedi
 
 creditsFull = N00b: code, sleeping AK guard recolor\nDoomJedi: all other graphics
 creditsFull_de = N00b: Skript, Umfärbung der schlafenden Wachen\nDoomJedi: Alle anderen Grafiken
 creditsFull_ru = N00b: код, спрайты спящего солдата Африканского корпуса\nDoomJedi: вся остальная графика
+creditsFull_cs = N00b: kód, rekolorování AK stráže\nDoomJedi: všechna ostatní grafika
 
 description = Adds some advanced behaviour patterns to regular enemies, such as leaping for melee mutants, picking up weapons, sleeping, and throwing grenades at close range as an extreme measure after being wounded.
 description_de = Fügt normalen Gegnern einige zusätzliche Verhaltensmuster hinzu, z. B. das Springen für Nahkampfmutanten, das Aufheben von Waffen, das Schlafen und das Werfen von Granaten aus nächster Nähe als extreme Maßnahme, nachdem diese verwundet wurden.
 description_ru = Добавляет обычным противникам более сложные образцы поведения, например атаку в прыжке для мутантов ближнего боя, подбирание оружия, сон, а также, в качестве крайней меры, броски гранат на короткое расстояние после ранения.
+description_cs = Přidává určité pokročilé vzory chování běžným nepřátelům, jako třeba skákání mutantům, kteří útočí nablízko, zvedání zbraní ze země, spaní a házení granátů na malou vzdálenost jako poslední opatření po zranění.
 
 requirements = None
 requirements_de = Keine
 requirements_ru = Отсутствуют
+requirements_cs = Žádné
 
 previewImages = 4
