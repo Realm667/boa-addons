@@ -1,15 +1,25 @@
-
 class ScoreHandler : StaticEventHandler
 {
     const bonusstep = 40000;
 
     ParsedValue scoredata;
     int BonusAmt[MAXPLAYERS];
+    bool initialized;
 
     override void OnRegister()
     {
 		scoredata = FileReader.Parse("data/ScoreAmounts.txt");
         scoredata = scoredata.Find("Enemies");
+    }
+
+    override void UITick()
+    {
+        if (!initialized)
+        {
+            let compass = Widget.Find("Compass");
+            if (compass) { compass.priority = 2; }
+            ScoreWidget.Init("Score", Widget.WDG_TOP | Widget.WDG_LEFT, 1);
+        }
     }
 
     override void WorldThingDied (WorldEvent e)
@@ -93,30 +103,40 @@ class ScoreHandler : StaticEventHandler
 			position -= width;
 		}
 	}
+}
 
-    override void RenderUnderlay (RenderEvent e)
-    {
-        if (screenblocks > 11 || automapactive) { return; }
+class ScoreWidget : Widget
+{
+	static void Init(String widgetname, int anchor = 0, int priority = 0, Vector2 pos = (0, 0), int zindex = 0)
+	{
+		ScoreWidget wdg = ScoreWidget(Widget.Init("ScoreWidget", widgetname, anchor, WDG_DRAWFRAME, priority, pos, zindex));
+	}
 
-        let p = players[consoleplayer].mo;
+	override bool SetVisibility()
+	{
+		if (
+				BoAStatusBar(StatusBar) && 
+				!automapactive && 
+				!player.mo.FindInventory("CutsceneEnabled") &&
+				!(player.mo is "KeenPlayer")
+			) { return true; }
+		
+		return false;
+	}
 
-        if (p.FindInventory("CutsceneEnabled")) { return; }
+	override Vector2 Draw()
+	{
+        String score;
+        if (player.mo) { score = String.Format("%i", player.mo.score); }
+        if (!score.length()) { score = "0"; }
 
-        if (p)
-        {
-            String score = String.Format("%i", p.score);
-            if (!score.length()) { score = "0"; }
+        size = (max(BigFont.StringWidth(score), 64), BigFont.GetHeight());
+        Super.Draw();
 
-            if (screenblocks > 10)
-            {
-                DrawToHUD.DrawText(score, (108, -70), BigFont, 1.0, 1.0, shade:Font.CR_RED, flags:ZScriptTools.STR_RIGHT);
-            }
-            else
-            {
-                DrawToHUD.DrawText(score, (Screen.GetWidth() / 2, 8), BigFont, 1.0, 1.0, shade:Font.CR_RED, flags:ZScriptTools.STR_CENTERED);
-            }
-        }
-    }
+        DrawToHUD.DrawText(score, (pos.x + size.x, pos.y + 1), BigFont, alpha, 1.0, shade:Font.CR_GOLD, flags:ZScriptTools.STR_RIGHT);
+
+		return size;
+	}
 }
 
 class ScoreNumber : FlatNumber
