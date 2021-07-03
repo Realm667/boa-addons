@@ -212,3 +212,51 @@ Enemies
     ZyklonMonster = 5000;
     ZyklonSkull = 300;
 }
+
+Rewards
+{
+	Default
+	{
+		Health = 100;
+		Ammo9mm = 128;
+        Ammo12Gauge = 128;
+        GrenadePickup = 4;
+		CoinItem = 500;
+	}
+	40000
+	{
+        Health = 25;
+		Ammo9mm = 64;
+        GrenadePickup = 2;
+		CoinItem = 100;
+	}
+    80000
+	{
+        Health = 50;
+        Ammo12Gauge = 64;
+        Bandages = 2;
+        CoinItem = 150;
+	}
+    120000
+	{
+        Health = 75;
+        Ammo9mm = 128;
+        Bandages = 2;
+        GrenadePickup = 2;
+        CoinItem = 200;
+	}
+    160000
+	{
+        Health = 75;
+        Ammo9mm = 128;
+        FieldKit = 2;
+        CoinItem = 250;
+	}
+    200000
+    {  
+        Health = 100;
+        UMG43 = 1;
+        Ammo9mm = 128;
+        CoinItem = 250;
+	}
+}

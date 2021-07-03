@@ -2,14 +2,15 @@ class ScoreHandler : StaticEventHandler
 {
     const bonusstep = 40000;
 
-    ParsedValue scoredata;
+    ParsedValue scoredata, rewarddata;
     int BonusAmt[MAXPLAYERS];
     bool initialized;
 
     override void OnRegister()
     {
-		scoredata = FileReader.Parse("data/ScoreAmounts.txt");
-        scoredata = scoredata.Find("Enemies");
+		ParsedValue data = FileReader.Parse("data/ScoreAmounts.txt");
+        scoredata = data.Find("Enemies");
+        rewarddata = data.Find("Rewards");
     }
 
     override void UITick()
@@ -37,17 +38,11 @@ class ScoreHandler : StaticEventHandler
 
                 killer.score += amt;
 
-                if (killer.score >= BonusAmt[killer.PlayerNumber()])
+                if (rewarddata && killer.score >= BonusAmt[killer.PlayerNumber()])
                 {
                     if (BonusAmt[killer.PlayerNumber()] > 0)
                     {
-                        killer.A_SetMugshotState("Grin");
-                        killer.A_StartSound("classic/life", CHAN_VOICE);
-                        killer.GiveBody(25);
-                        Nazi.SpyGive(killer, "Ammo9mm", 64);
-                        Nazi.SpyGive(killer, "CoinItem", 100);
-
-                        clr = "CCAA00";
+                        if (GiveReward(killer, BonusAmt[killer.PlayerNumber()])) { clr = "CCAA00"; }
                     }
 
                     BonusAmt[killer.PlayerNumber()] += bonusstep;
@@ -61,10 +56,33 @@ class ScoreHandler : StaticEventHandler
 
     int GetScoreAmt(Actor mo)
     {
-        int score = FileReader.GetInt(scoredata, mo.GetClassName());
+        int score;
+        
+        if (scoredata) { score = FileReader.GetInt(scoredata, mo.GetClassName()); }
         if (!score) { score = max(100, mo.Default.health * 5); } // Fallback for enemies that aren't included in the score data list
 
         return score;
+    }
+
+    bool GiveReward(Actor mo, int amt)
+    {
+        ParsedValue rewards, reward;
+        
+        rewards = rewarddata.Find(String.Format("%i", amt)); // Try to find the reward associated with this point value
+        if (!rewards) { rewards = rewarddata.Find("Default"); } // If there's not one, fall back to the default reward
+        if (!rewards) { return false; } // If no default was set, return here
+
+        mo.A_SetMugshotState("Grin");
+        mo.A_StartSound("classic/life", CHAN_VOICE);
+
+        while (reward = rewards.Next())
+        {
+            int dropamt = reward.value.ToInt();
+            if (reward.keyname ~== "Health") { mo.GiveBody(dropamt); }
+            else { Nazi.SpyGive(mo, reward.keyname, dropamt); }
+        }
+
+        return true;
     }
 
     void SpawnDigits(Actor origin, int number, Class<Actor> numactor, color clr)
@@ -115,7 +133,8 @@ class ScoreWidget : Widget
 	override bool SetVisibility()
 	{
 		if (
-				BoAStatusBar(StatusBar) && 
+				BoAStatusBar(StatusBar) &&
+                screenblocks < 12 &&
 				!automapactive && 
 				!player.mo.FindInventory("CutsceneEnabled") &&
 				!(player.mo is "KeenPlayer")
