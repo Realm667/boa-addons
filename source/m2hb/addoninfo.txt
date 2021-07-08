@@ -1,6 +1,4 @@
 title = M2HB
-title_cs = M2HB
-title_it = M2HB
 
 credits = N00b
 
@@ -9,17 +7,20 @@ creditsFull_de = Sprites bearbeitet von Final Doomer Plutonia HMG (Captain J, Do
 creditsFull_ru = Спрайты основаны на крупнокалиберном пулемёте из сета Plutonia модификации Final Doomer (Captain J, Doom Alpha, Knight Icy, Skelegant)\nОбработчик событий основан на https://forum.zdoom.org/viewtopic.php?f=122&t=64334 автора Jekyll Grim Payne\nНа карты освещения не оставалось времени, пожалуйста, нарисуйте их сами, если хотите включить эту модификацию в Вашу работу ;-)
 creditsFull_cs = Editované sprity vzaty z Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nSkript obsluhy událostí editovaný z https://forum.zdoom.org/viewtopic.php?f=122&t=64334 by Jekyll Grim Payne\nNa brightmapy nebyl žádný čas. Pokud je chcete mít ve svém módu, prosím dodělejte je. ;-)
 creditsFull_it = Sprites modificati da Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nEvent handler modificato da https://forum.zdoom.org/viewtopic.php?f=122&t=64334 da Jekyll Grim Payne\nNon c'era tempo per le brightmaps, sei pregato quindi di crearle da solo se vuoi incorporare quest'arma al tuo mod ;-)
+creditsFull_pl = Zmodyfikowane sprite'y z Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nZedytowany skrypt obsługi zdarzenia z https://forum.zdoom.org/viewtopic.php?f=122&t=64334 autorstwa Jekyll Grim Payne\nNie było czasu dla brightmap, zrób je gdy chcesz wykorzystać w swojej modyfikacji ;-)
 
 description = Replaces the Fliegerfaust mounted on the truck from C2M4 with a Browning .50 caliber M2HB heavy machine gun, loaded with high-explosive cartridges. It can easily destroy both enemy infantry and vehicles.
 description_de = Ersetzt die auf dem LKW montierte Fliegerfaust aus C2M4 durch ein schweres Maschinengewehr vom Typ Browning .50 Kaliber M2HB, geladen mit hochexplosiven Patronen. Es kann sowohl feindliche Infanterie als auch Fahrzeuge leicht zerstören.
 description_ru = Заменяет Fliegerfaust, установленный на грузовике на C2M4, на пулемёт Браунинга M2, заряженный разрывными патронами. Он легко справляется как с пехотой противника, так и с техникой.
 description_cs = Nahrazuje Fliegerfaust, který je namontovaný na korbě náklaďáku v misi C2M4, těžkým kulometem M2HB Browning s kalibrem 0.5, s vysoce explozivními náboji. Dokáže jednoduše zničit jak nepřátelské jednotky, tak vozidla.
-description = Rimpiazza il Fliegerfaust montato sul camion in C2M4 con una Browning calibro .50 M2HB mitraglietta d'assalto pesante, caricata da cartucce altamente esplosive. Può distruggere facilmente entrambe le fanterie e i veicoli nemici.
+description_it = Rimpiazza il Fliegerfaust montato sul camion in C2M4 con una Browning calibro .50 M2HB mitraglietta d'assalto pesante, caricata da cartucce altamente esplosive. Può distruggere facilmente entrambe le fanterie e i veicoli nemici.
+description_pl = Zamienia Fliegerfaust montowany na ciężarówkę w C2M4 na M2HB Browning kalibru .50, załadowany mocno wybuchowymi nabojami. Z łatwością niszczy wrogą piechotę oraz pojazdy.
 
 requirements = None
 requirements_de = Keine
 requirements_ru = Отсутствуют
 requirements_cs = Žádné
 requirements_it = Niente
+requirements_pl = Brak
 
 previewImages = 1
