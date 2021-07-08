@@ -3,7 +3,7 @@ title_de = Nur Granaten
 title_ru = Только гранаты
 title_cs = Pouze s granáty
 title_it = Soltanto Granate
-title_cs = Tylko Granaty
+title_pl = Tylko Granaty
 
 credits = N00b
 
