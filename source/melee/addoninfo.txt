@@ -2,6 +2,7 @@ title = Melee
 title_de = Nahkampf
 title_ru = Ближний бой
 title_cs = Zbraně pro boj na blízko
+title_it = Corpo a Corpo
 
 credits = N00b
 
@@ -9,10 +10,12 @@ description = Removes all guns, and replaces them with melee weapons. Your melee
 description_de = Entfernt alle Pistolen und ersetzt sie durch Nahkampfwaffen. Diese verursachen mehr Schaden als üblich, und Du kannst jetzt Deine Messer werfen (mehrere sind nun tragbar). Nach einer lautlosen Tötung kannst Du den toten Körper auch wegschleppen, um ihn vor Patrouillen zu verstecken.
 description_ru = Убирает из игры всё огнестрельное оружие и заменяет его на холодное с увеличенным уроном. Также теперь можно подбирать несколько ножей и метать их, а после скрытного убийства оттаскивать тело, чтобы спрятать его от патрулей.
 description_cs = Odstraňuje veškeré palné zbraně a nahrazuje je jinými pro boj na blízko. Ty nyní způsobují poškození větší než obvykle a dokonce můžeš i házet své nože (těch můžeš mít i více naráz). A po tichém zabití můžeš odtáhnout mrtvolu dál, daleko od očí kolemjdoucích stráží. 
+description_it = Rimuove tutte le armi e le rimpiazza con armi da mischia. Le tue armi da mischia infliggono più danni del solito e ora puoi lanciare i tuoi coltelli (puoi trasportarne più di uno). Dopo un'uccisione silenziosa, puoi anche trascinare via il cadavere per nasconderlo dalle pattuglie.
 
 requirements = None
 requirements_de = Keine
 requirements_ru = Отсутствуют
 requirements_cs = Žádné
+requirements_it = Niente
 
 previewImages = 1
