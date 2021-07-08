@@ -25,6 +25,7 @@ requirements = None
 requirements_de = Keine
 requirements_ru = Отсутствуют
 requirements_cs = Žádné
+requirements_it = Niente
 requirements_pl = Brak
 
 previewImages = 1
