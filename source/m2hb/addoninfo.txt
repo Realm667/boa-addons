@@ -2,7 +2,7 @@ title = M2HB
 
 credits = N00b
 
-creditsFull = Sprites edited from Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nEvent handler edited from https://forum.zdoom.org/viewtopic.php?f=122&t=64334 by Jekyll Grim Payne\nBrightmaps by ozymandias81
+creditsFull = Sprites edited from Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nEvent handler edited from https://forum.zdoom.org/viewtopic.php?f=122&t=64334 by Jekyll Grim Payne\nBrightmaps by Ozymandias81
 creditsFull_de = Sprites bearbeitet von Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nEreignis Handling bearbeitet von https://forum.zdoom.org/viewtopic.php?f=122&t=64334 durch Jekyll Grim Payne\nBrightmaps von Ozymandias81
 creditsFull_ru = Спрайты основаны на крупнокалиберном пулемёте из сета Plutonia модификации Final Doomer (Captain J, Doom Alpha, Knight Icy, Skelegant)\nОбработчик событий основан на https://forum.zdoom.org/viewtopic.php?f=122&t=64334 автора Jekyll Grim Payne\nЯркие карты от Ozymandias81
 creditsFull_cs = Editované sprity vzaty z Final Doomer Plutonia HMG (Captain J, Doom Alpha, Knight Icy, Skelegant)\nSkript obsluhy událostí editovaný z https://forum.zdoom.org/viewtopic.php?f=122&t=64334 by Jekyll Grim Payne\nBrightmapy od Ozymandias81
