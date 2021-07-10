@@ -6,7 +6,7 @@ class WeaponOverrideHandler : EventHandler
 			PlayerInfo player = players[pn];
 			PlayerPawn mo = player.mo;
 			let oldweap = player.pendingWeapon.GetClassName();
-			let oldweapr = player.readyweapon.GetClassName();
+			//let oldweapr = player.readyweapon.GetClassName(); --commented out to avoid https://github.com/Realm667/WolfenDoom/issues/938
 			if (oldweap == 'NebelwerferTruck')
 			{
 				player.pendingWeapon = GetWeapon(mo, "M2HBTruck");
