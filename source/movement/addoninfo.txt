@@ -1,4 +1,5 @@
 title = Movement
+title_de = Bewegung
 title_ru = Передвижение
 title_cs = Pohyb
 title_it = Movimento

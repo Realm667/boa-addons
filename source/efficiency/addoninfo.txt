@@ -8,6 +8,7 @@ title_pl = Efektywność
 credits = N00b & "zrrion the insect"
 
 creditsFull = Modified from Thrifty Ammo/Health by zrrion the insect\nhttps://forum.zdoom.org/viewtopic.php?f=43&t=71406
+creditsFull_de = Geändert von Thrifty Ammo/Health von zrrion the insect\nhttps://forum.zdoom.org/viewtopic.php?f=43&t=71406
 creditsFull_ru = Основано на Thrifty Ammo/Health автора zrrion the insect\nhttps://forum.zdoom.org/viewtopic.php?f=43&t=71406
 creditsFull_cs = Modifikace. Čeho: Thrifty Ammo/Health. Kým: "zrrion the insect"\nhttps://forum.zdoom.org/viewtopic.php?f=43&t=71406
 creditsFull_it = Modificato da Thrifty Ammo/Health di zrrion the insect\nhttps://forum.zdoom.org/viewtopic.php?f=43&t=71406
