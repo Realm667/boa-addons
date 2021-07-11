@@ -35,6 +35,8 @@ class ScoreHandler : StaticEventHandler
             if (!thing.bFriendly || (Nazi(thing) && Nazi(thing).user_sneakable))
             {
                 int amt = GetScoreAmt(thing);
+                thing = Actor.Spawn("ScorePosition", thing.Pos, NO_REPLACE);
+                thing.target = killer;
 
                 killer.score += amt;
 
@@ -158,6 +160,25 @@ class ScoreWidget : Widget
 	}
 }
 
+// Workaround for sharks - See https://github.com/Realm667/WolfenDoom/issues/942
+class ScorePosition : Actor
+{
+    Default
+    {
+        +NOINTERACTION
+        +NOSECTOR
+        +NOBLOCKMAP
+    }
+
+    States
+    {
+    Spawn:
+        // 60 (Spawn) + 25 (Fade) + 1 just in case
+        TNT1 A 86;
+        Stop;
+    }
+}
+
 class ScoreNumber : FlatNumber
 {
     Default
@@ -173,6 +194,7 @@ class ScoreNumber : FlatNumber
 		Spawn:
 			FNUM A 60;
         Fade:
+            // 25 tics
             FNUM # 1 A_FadeOut(0.04, FTF_REMOVE);
 			Loop;
 	}
