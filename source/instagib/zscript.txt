@@ -18,11 +18,20 @@ class InstagibDamage: Inventory
 
 class InstagibHandler : EventHandler
 {
-	override void PlayerSpawned (PlayerEvent e) {
+	override void PlayerSpawned (PlayerEvent e)
+    {
 		PlayerInfo player = players[e.PlayerNumber];
 		if (player && player.mo)
 		{
 			player.mo.GiveInventory("InstagibDamage", 1);
 		}
+	}
+    
+    override void WorldThingSpawned (WorldEvent e)
+    {
+		if (e.Thing is "WGuard_Wounded") //remove wounded guards from game
+        {
+            e.Thing.A_Die();
+        }
 	}
 }
