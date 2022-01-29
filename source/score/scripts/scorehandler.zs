@@ -132,7 +132,7 @@ class ScoreWidget : Widget
 		ScoreWidget wdg = ScoreWidget(Widget.Init("ScoreWidget", widgetname, anchor, WDG_DRAWFRAME, priority, pos, zindex));
 	}
 
-	override bool SetVisibility()
+	override bool IsVisible()
 	{
 		if (
 				BoAStatusBar(StatusBar) &&

@@ -36,7 +36,7 @@ class BloodWidget : Widget
 		if (wdg && wdg.flags & WDG_DRAWFRAME) { wdg.flags |= WDG_DRAWFRAME_CENTERED; }
 	}
 
-	override bool SetVisibility()
+	override bool IsVisible()
 	{
 		if (
 			VampireBoAStatusBar(StatusBar) && 
