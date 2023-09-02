@@ -51,14 +51,14 @@ class EfficientAmmo : Ammo abstract
 	override void Activate (Actor a)
 	{
 		activator = a;
-		Touch(a);
+		if (a) { Touch(a); }
 		activator = null;
 	}
 	
 	override void Deactivate (Actor a)
 	{
 		activator = a;
-		Touch(a);
+		if (a) { Touch(a); }
 		activator = null;
 	}
 }
@@ -104,14 +104,14 @@ class EfficientHealth : Health
 	override void Activate (Actor a)
 	{
 		activator = a;
-		Touch(a);
+		if (a) { Touch(a); }
 		activator = null;
 	}
 	
 	override void Deactivate (Actor a)
 	{
 		activator = a;
-		Touch(a);
+		if (a) { Touch(a); }
 		activator = null;
 	}
 }

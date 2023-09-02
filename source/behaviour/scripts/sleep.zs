@@ -116,7 +116,7 @@ class SleepingGuard: NaziStandard
 		Goto DeathSequence;
 	DeathSequence:
 		"####" K 5 A_SpawnItemEx("ThroatSpill", 0, 0, 0);
-		"####" L 5;
+		"####" L 5 A_NoBlocking();
 		"####" M -1;
 		Stop;
 	}
