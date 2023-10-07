@@ -106,7 +106,7 @@ Enemies
     Officer_Wounded = 400;
     Paratrooper = 800;
     PhantomBoss = 5000;
-    PlagueDoc = 2500;
+    PlagueDoc = 150;
     PrisonerEnemyBoss = 5000;
     PrisonerEnemyBoss_End = 5000;
     ProtoDrone = 300;
